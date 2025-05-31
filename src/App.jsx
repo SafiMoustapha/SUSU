@@ -6,6 +6,7 @@ import Associations from './pages/Associations';
 import BouquetsSante from './pages/BouquetsSante';
 import Devis from './pages/Devis';
 import Blog from './pages/Blog';
+import Assurance from './pages/Assurance';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/bouquetssante" element={<BouquetsSante />} />
           <Route path="/devis" element={<Devis />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/assurance" element={<Assurance />} />
         </Routes>
         <Footer />
       </div>

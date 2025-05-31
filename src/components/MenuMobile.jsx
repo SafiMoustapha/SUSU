@@ -30,7 +30,7 @@ const MenuMobile = () => {
                             <img src={flecheEnBas} alt="Flèche vers le bas" className='w-4 h-4 invert' />
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
-                            <Link to="#" className='hover:text-[#fe7624] focus:text-blue-800'>Assurance Santé en Afrique</Link>
+                            <Link to="/assurance" className='hover:text-[#fe7624] focus:text-blue-800'>Assurance Santé en Afrique</Link>
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
                             <Link to="/bouquetssante" className='hover:text-[#fe7624] focus:text-blue-800'>Bouquets santé</Link>

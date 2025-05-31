@@ -11,7 +11,7 @@ const NavMenu = () => {
                     <img src={flecheBas} alt="Flèche vers le bas" className='w-4 h-4' />
                 </li>
                 <li className='flex items-center justify-center'>
-                    <Link to="#" className='hover:text-[#fe7624] focus:text-blue-800'>Assurance Santé en Afrique</Link>
+                    <Link to="/assurance" className='hover:text-[#fe7624] focus:text-blue-800'>Assurance Santé en Afrique</Link>
                 </li>
                 <li className='flex items-center justify-center'>
                     <Link to="/bouquetssante" className='hover:text-[#fe7624] focus:text-blue-800'>Bouquets santé</Link>
