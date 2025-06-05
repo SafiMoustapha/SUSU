@@ -36,7 +36,7 @@ const MenuMobile = () => {
                             <Link to="/bouquetssante" className='hover:text-[#fe7624] focus:text-blue-800'>Bouquets santé</Link>
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
-                            <Link to="/asssociations" className='hover:text-[#fe7624] focus:text-blue-800'>Associations</Link>
+                            <Link to="/associations" className='hover:text-[#fe7624] focus:text-blue-800'>Associations</Link>
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
                             <Link to="/blog" className='hover:text-[#fe7624] focus:text-blue-800'>Blog</Link>
