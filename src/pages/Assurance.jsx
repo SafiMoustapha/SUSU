@@ -1,6 +1,6 @@
 import Actualite from "../components/Actualite";
 import Sect2Ass from "../components/Sect2Ass";
-import Sect3Ass from "../components/Sect3Ass";
+import CarouselAss from "../components/CarouselAss";
 import Section3BQS from "../components/Section3BQS";
 import SectionAssurance from "../components/SectionAssurance";
 import ServiceAccueil from "../components/ServiceAccueil";
@@ -10,7 +10,7 @@ function Assurance() {
             <SectionAssurance />
             <Sect2Ass />
             <Section3BQS />
-            <Sect3Ass />
+            <CarouselAss />
             <ServiceAccueil />
             <Actualite />
         </main>

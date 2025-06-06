@@ -26,7 +26,7 @@ const slides = [
     }
 ]
 
-const Sect3Ass = () => {
+const CarouselAss = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToPrevious = () => {
@@ -76,4 +76,4 @@ const Sect3Ass = () => {
     );
 };
 
-export default Sect3Ass;
+export default CarouselAss;

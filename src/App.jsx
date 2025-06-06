@@ -7,6 +7,7 @@ import BouquetsSante from './pages/BouquetsSante';
 import Devis from './pages/Devis';
 import Blog from './pages/Blog';
 import Assurance from './pages/Assurance';
+import Sect3Ass from './components/CarouselAss';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/assurance" element={<Assurance />} />
         </Routes>
         <Footer />
+        <Sect3Ass/>
       </div>
     </Router>
   )
