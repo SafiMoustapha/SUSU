@@ -26,7 +26,7 @@ const slides = [
     }
 ]
 
-const CarouselBQS = () => {
+const Sect3Ass = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToPrevious = () => {
@@ -76,4 +76,4 @@ const CarouselBQS = () => {
     );
 };
 
-export default CarouselBQS;
+export default Sect3Ass;
