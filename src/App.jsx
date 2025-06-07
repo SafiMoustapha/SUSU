@@ -23,7 +23,6 @@ function App() {
           <Route path="/assurance" element={<Assurance />} />
         </Routes>
         <Footer />
-        <Sect3Ass/>
       </div>
     </Router>
   )
