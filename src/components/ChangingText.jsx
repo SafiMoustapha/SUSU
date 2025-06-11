@@ -22,13 +22,13 @@ const ChangingText = () => {
                 <img src={medecin} alt="" />
             </div>
             <div>
-                <h2 className="text-6xl md:text-8xl font-bold text-center transition-all duration-500 mt-60 mb-4">
+                <h2 className="text-5xl sm:text-6xl md:text-8xl font-bold text-center transition-all duration-500 mt-60 mb-4">
                 {texts[index]}
                 </h2>
                 <h2 className="text-4xl font-bold mb-4">
                     la santé de vos proches au pays
                 </h2>
-                <p className="text-2xl py-4 px-36">
+                <p className="text-2xl py-4 px-4 md:px-36">
                     Offrez le meilleur accès aux soins de santé à vos familles en Afrique
                 </p>
                 <button className="bg-[#1acad7] hover:bg-[#fe7624] text-[#ffffff] font-bold text-lg px-4 py-3 rounded-sm mt-10 mb-6 lg:hidden">

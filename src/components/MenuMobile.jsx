@@ -10,6 +10,10 @@ const MenuMobile = () => {
         setIsOpen(!isOpen);
     };
 
+    const handleLinkClick = () => {
+        setIsOpen(false);
+    };
+
     return (
         <>
             {/* Bouton */}
@@ -30,16 +34,16 @@ const MenuMobile = () => {
                             <img src={flecheEnBas} alt="Flèche vers le bas" className='w-4 h-4 invert' />
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
-                            <Link to="/assurance" className='hover:text-[#fe7624] focus:text-blue-800'>Assurance Santé en Afrique</Link>
+                            <Link to="/assurance" onClick={handleLinkClick} className='hover:text-[#fe7624] focus:text-blue-800'>Assurance Santé en Afrique</Link>
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
-                            <Link to="/bouquetssante" className='hover:text-[#fe7624] focus:text-blue-800'>Bouquets santé</Link>
+                            <Link to="/bouquetssante" onClick={handleLinkClick} className='hover:text-[#fe7624] focus:text-blue-800'>Bouquets santé</Link>
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
-                            <Link to="/associations" className='hover:text-[#fe7624] focus:text-blue-800'>Associations</Link>
+                            <Link to="/associations" onClick={handleLinkClick} className='hover:text-[#fe7624] focus:text-blue-800'>Associations</Link>
                         </li>
                         <li className='flex items-center justify-between gap-2 border-b border-white p-4'>
-                            <Link to="/blog" className='hover:text-[#fe7624] focus:text-blue-800'>Blog</Link>
+                            <Link to="/blog" onClick={handleLinkClick} className='hover:text-[#fe7624] focus:text-blue-800'>Blog</Link>
                         </li>
                     </ul>
                 </div>

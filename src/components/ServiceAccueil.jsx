@@ -7,7 +7,7 @@ import allSanSunImage from '../assets/allianz-sanlam-sunu-logo.png';
 const ServiceAccueil = () => {
     return (
         <div className="bg-[#F0F4FF] p-8 h-[70vh] md:h-auto">
-            <div className="text-center px-20 md:px-24 lg:px-64 lg:py-8">
+            <div className="text-center md:px-24 lg:px-64 lg:py-8">
                 <h2 className="md:hidden text-3xl font-semibold mt-8 text-[#0D2063]">
                     Un service conçu par une équipe passionnée 
                 </h2>

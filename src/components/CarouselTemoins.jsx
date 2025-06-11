@@ -48,15 +48,15 @@ const CarouselTemoins = () => {
     };
 
     return (
-        <div className='relative w-[500px] mx-auto overflow-hidden '>
+        <div className='relative sm:w-[500px] mx-auto overflow-hidden '>
             <div className='flex duration-500 ease-in-out w-full h-full' style={{ transform: `translateX(-${current * 100}%)` }}>
                 {slides.map((slide, index) => (
                     <div key={index} className='min-w-full flex-shrink-0 px-6 bg-white'>
                         <div className='flex items-center justify-start'>
                             <img src={slide.image} alt="Témoin" className="w-36 h-20" />
                         </div>
-                        <div className="w-full max-w-[400px]">
-                            <p className="text-gray-500 break-words whitespace-normal">
+                        <div className="w-full max-w-[280px] sm:max-w-[400px]">
+                            <p className="text-gray-500 md:break-words md:whitespace-normal">
                                 {slide.content}
                             </p>
                         </div>

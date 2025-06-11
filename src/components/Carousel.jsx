@@ -84,7 +84,7 @@ const Carousel = () => {
             {/* sm & xs : Scroll horizontal */}
             <div className="md:hidden flex overflow-x-auto space-x-4 p-4 scrollbar-hide">
                 {slides.map((slide, index) => (
-                    <div key={index} className="min-w-[85%] bg-white p-4 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <div key={index} className="min-w-[100%] sm:min-w-[85%] bg-white p-4 rounded-lg shadow-md flex flex-col items-center text-center">
                         <img src={slide.image} alt="" className="w-40 h-40 mb-3" />
                         <h2 className="text-xl font-bold text-[#0D2063] mb-2">{slide.title}</h2>
                         <p className="text-[#0D2063] text-base">{slide.content}</p>

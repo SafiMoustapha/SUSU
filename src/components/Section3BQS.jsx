@@ -21,7 +21,7 @@ const Section3BQS = () => {
                         <button className="bg-[#0D2064] rounded-full px-4 py-2 font-bold text-white lg:px-4 lg:mt-14">
                             01 DEVIS
                         </button>
-                        <p className="text-[#0D2064] text-center px-44 lg:px-4">
+                        <p className="text-[#0D2064] text-center sm:px-44 lg:px-4">
                             <b>Renseignez les informations </b>de votre bénéficiaire en ligne ou au téléphone.
                         </p>
                     </div>
@@ -32,7 +32,7 @@ const Section3BQS = () => {
                         <button className="bg-[#0D2064] rounded-full px-4 py-2 font-bold text-white lg:px-4 lg:mt-14">
                             02 VALIDATION DU DEVIS
                         </button>
-                        <p className="text-[#0D2064] text-center px-44 lg:px-4">
+                        <p className="text-[#0D2064] text-center sm:px-44 lg:px-4">
                             <b>Vous recevez alors par email </b>un devis à valider par vos soins.
                         </p>
                     </div>
@@ -43,7 +43,7 @@ const Section3BQS = () => {
                         <button className="bg-[#0D2064] rounded-full px-4 py-2 font-bold text-white lg:px-4 lg:mt-14">
                             03 VISITE MÉDICALE INITIALE
                         </button>
-                        <p className="text-[#0D2064] text-center px-44 lg:px-4">
+                        <p className="text-[#0D2064] text-center sm:px-44 lg:px-4">
                             <b>Votre bénéficiaire est contacté </b>pour remplir un questionnaire médical.
                         </p>
                     </div>
@@ -54,7 +54,7 @@ const Section3BQS = () => {
                         <button className="bg-[#0D2064] rounded-full px-4 py-2 font-bold text-white lg:px-4 lg:mt-14">
                             04 RÉCEPTION CALENDRIER
                         </button>
-                        <p className="text-[#0D2064] text-center px-44 lg:px-4">
+                        <p className="text-[#0D2064] text-center sm:px-44 lg:px-4">
                             <b>Il reçoit ensuite un calendrier médical </b>sur mesure indiquant la date et nature des visites médicales à venir.
                         </p>
                     </div>
@@ -65,7 +65,7 @@ const Section3BQS = () => {
                         <button className="bg-[#0D2064] rounded-full px-4 py-2 font-bold text-white lg:px-4 lg:mt-14">
                             05 ALERTE SMS
                         </button>
-                        <p className="text-[#0D2064] text-center px-44 lg:px-4">
+                        <p className="text-[#0D2064] text-center sm:px-44 lg:px-4">
                             À l'approche de chaque visite médicale, <b>votre bénéficiaire et vous-même êtes notifiés par sms.</b>
                         </p>
                     </div>
@@ -76,7 +76,7 @@ const Section3BQS = () => {
                         <button className="bg-[#0D2064] rounded-full px-4 py-2 font-bold text-white lg:px-4 lg:mt-2">
                             06 SUIVI CONTRAT
                         </button>
-                        <p className="text-[#0D2064] text-center px-44 lg:px-4">
+                        <p className="text-[#0D2064] text-center sm:px-44 lg:px-4">
                             <b>Vous suivez les informations du bénéficiaire </b>et de votre abonnement sur notre application.
                         </p>
                     </div>

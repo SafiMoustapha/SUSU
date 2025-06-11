@@ -2,8 +2,8 @@ import React from 'react';
 
 function InputWithButton() {
   return (
-    <div className="p-[2px] w-[600px] flex justify-center bg-white rounded-lg">
-      <form className="flex w-full h-full bg-white rounded-lg overflow-hidden focus-within:ring-1 focus-within:ring-black m-none">
+    <div className="p-[2px] sm:w-[600px] flex justify-center bg-white rounded-lg">
+      <form className="flex flex-col sm:flex-row w-full h-full bg-white rounded-lg overflow-hidden focus-within:ring-1 focus-within:ring-black m-none">
         <input
           type="email"
           placeholder="Indiquez votre email*"

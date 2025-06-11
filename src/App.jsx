@@ -1,17 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Accueil from './pages/Accueil';
-import Associations from './pages/Associations';
-import BouquetsSante from './pages/BouquetsSante';
-import Devis from './pages/Devis';
-import Blog from './pages/Blog';
-import Assurance from './pages/Assurance';
-import Sect3Ass from './components/CarouselAss';
+import Accueil from './pages/Accueil/Accueil';
+import Associations from './pages/Associations/Associations';
+import BouquetsSante from './pages/BQS/BouquetsSante';
+import Devis from './pages/Devis/Devis';
+import Blog from './pages/Blog/Blog';
+import Assurance from './pages/Assurance/Assurance';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className="App">
         <Header />
         <Routes>

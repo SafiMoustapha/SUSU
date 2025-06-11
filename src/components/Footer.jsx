@@ -5,17 +5,17 @@ import twitterIcon from '../assets/twitter.png';
 import linkedinIcon from '../assets/linkedin.png';
 const Footer = () => {
     return (
-        <footer className="bg-[#0D2063] p-8 flex flex-col items-center h-[100vh]">
+        <footer className="bg-[#0D2063] p-8 flex flex-col items-center lg:h-[100vh]">
             <div className="w-full">
                 <h2 className="text-white text-3xl font-semibold mb-8">
                     N’attendez plus pour prendre soin de ceux <br/> qui ont pris soin de vous ❤️
                 </h2>
             </div>
-            <div className="flex items-center justify-start mb-16 w-full gap-6">
-                <button className="bg-white text-[#0D2063] px-8 py-4 rounded-md font-semibold hover:bg-[#0D2063] hover:text-white transition-colors duration-300 border border-white">
+            <div className="flex flex-col sm:flex-row items-center justify-start mb-16 w-full gap-6">
+                <button className="bg-white text-[#0D2063] px-8 py-4 rounded-md font-semibold hover:bg-[#0D2063] hover:text-white transition-colors duration-300 border border-white w-full">
                     Échanger avec l'équipe
                 </button>
-                <button className="bg-[#0D2063] text-white px-8 py-4 rounded-md font-semibold hover:bg-white hover:text-[#0D2063] transition-colors duration-300 border border-white">
+                <button className="bg-[#0D2063] text-white px-8 py-4 rounded-md font-semibold hover:bg-white hover:text-[#0D2063] transition-colors duration-300 border border-white w-full">
                     Demander un devis
                 </button>
             </div>
